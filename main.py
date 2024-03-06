@@ -1,4 +1,5 @@
 # Isabella Tarsitano
+# Lab 6 creation
 
 def encode(paswrd):
 	# Create a new string for the result
