@@ -16,7 +16,15 @@ def encode(paswrd):
 
 
 def decode(pas):
-	pass
+	# Creates a blank array new to store the decoded password. Loops through
+	# the encoded password and appends each item minus 3 to new. Then uses the
+	# join module to return the complete string as a single item.
+	new = []
+	for i in range(len(pas)):
+		new.append(str(int(pas[i]) - 3))
+	return "".join(new)
+
+
 
 
 def menu():
